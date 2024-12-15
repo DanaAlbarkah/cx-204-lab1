@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_Top_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_Top" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="19166666fs"></ZoomStartTime>
+      <ZoomEndTime time="134166667fs"></ZoomEndTime>
+      <Cursor1Time time="115000000fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="134"></NameColumnWidth>
+      <ValueColumnWidth column_width="80"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="19" />
+   <wvobject type="logic" fp_name="/tb_Top/DUT/clk">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/tb_Top/DUT/resetn">
+      <obj_property name="ElementShortName">resetn</obj_property>
+      <obj_property name="ObjectShortName">resetn</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_Top/DUT/count">
+      <obj_property name="ElementShortName">count[1:0]</obj_property>
+      <obj_property name="ObjectShortName">count[1:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_Top/DUT/instruction">
+      <obj_property name="ElementShortName">instruction[7:0]</obj_property>
+      <obj_property name="ObjectShortName">instruction[7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_Top/DUT/ALU_out">
+      <obj_property name="ElementShortName">ALU_out[15:0]</obj_property>
+      <obj_property name="ObjectShortName">ALU_out[15:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_Top/DUT/data_rs1">
+      <obj_property name="ElementShortName">data_rs1[2:0]</obj_property>
+      <obj_property name="ObjectShortName">data_rs1[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_Top/DUT/data_rs2">
+      <obj_property name="ElementShortName">data_rs2[2:0]</obj_property>
+      <obj_property name="ObjectShortName">data_rs2[2:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_Top/DUT/REG_WIDTH">
+      <obj_property name="ElementShortName">REG_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">REG_WIDTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_Top/DUT/NUM_REGS">
+      <obj_property name="ElementShortName">NUM_REGS[31:0]</obj_property>
+      <obj_property name="ObjectShortName">NUM_REGS[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_Top/DUT/PROG_VALUE">
+      <obj_property name="ElementShortName">PROG_VALUE[31:0]</obj_property>
+      <obj_property name="ObjectShortName">PROG_VALUE[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_Top/DUT/ALU_WIDTH">
+      <obj_property name="ElementShortName">ALU_WIDTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ALU_WIDTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_Top/DUT/IMEM_DEPTH">
+      <obj_property name="ElementShortName">IMEM_DEPTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">IMEM_DEPTH[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_Top/DUT/width">
+      <obj_property name="ElementShortName">width[31:0]</obj_property>
+      <obj_property name="ObjectShortName">width[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_Top/DUT/depth">
+      <obj_property name="ElementShortName">depth[31:0]</obj_property>
+      <obj_property name="ObjectShortName">depth[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_Top/DUT/IM/address">
+      <obj_property name="ElementShortName">address[2:0]</obj_property>
+      <obj_property name="ObjectShortName">address[2:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_Top/DUT/IM/instruction">
+      <obj_property name="ElementShortName">instruction[7:0]</obj_property>
+      <obj_property name="ObjectShortName">instruction[7:0]</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_Top/DUT/IM/memory">
+      <obj_property name="ElementShortName">memory[2:0][7:0]</obj_property>
+      <obj_property name="ObjectShortName">memory[2:0][7:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_Top/DUT/IM/width">
+      <obj_property name="ElementShortName">width[31:0]</obj_property>
+      <obj_property name="ObjectShortName">width[31:0]</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/tb_Top/DUT/IM/IMEM_DEPTH">
+      <obj_property name="ElementShortName">IMEM_DEPTH[31:0]</obj_property>
+      <obj_property name="ObjectShortName">IMEM_DEPTH[31:0]</obj_property>
+   </wvobject>
+</wave_config>
